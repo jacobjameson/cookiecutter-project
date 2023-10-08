@@ -4,8 +4,5 @@
   "full_name": "Jacob Jameson",
   "email": "jacobjameson@g.harvard.edu",
   "author_lastnames": "Jameson,Coots",
-  "project_folder": "{{ cookiecutter.project_acronym.upper() + '_' + cookiecutter.author_lastnames.replace(' ', '_').replace(',', '_') }}",
-  "_copy_without_render": [
-      "*_resources"
-  ]
+  "project_folder": "{{ cookiecutter.project_acronym.upper() + '_' + cookiecutter.author_lastnames.replace(' ', '_').replace(',', '_') }}"
 }
