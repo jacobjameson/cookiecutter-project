@@ -1,5 +1,5 @@
 ---
-title: Paper Ttle
+title: Paper Title
 authors:
   - name: First Last
     thanks: Use footnote for providing further information about author (webpage, alternative address)---*not* for acknowledging funding agencies. Optional.
