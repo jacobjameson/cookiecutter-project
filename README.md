@@ -36,8 +36,10 @@ You will be prompted for the following values:
 
 Input Value        | Description
 -------------------|----------------------------------------------------------------------------------------------------------------------------------------
+`project_title`  | Title for the project. Default: "Academic Research Project"
 `project_acronym`  | Acronym for the project, used as a short-hand for reference. Default: "ARP"
-`full_name`        | Your full name, added to the Latex file. Other authors will have to be manually added to the Latex. Default: "Jacob Jameson"
-`email`            | Your email address, added to the Latex file. Other authors will have to be manually added to the Latex. Default: "jacobjameson@g.harvard.edu"
+`full_name`        | Your full name, added to the README file. Default: "Jacob Jameson"
+`email`            | Your email address, added to the README file. Default: "jacobjameson@g.harvard.edu"
 `author_lastnames` | List of last names, used to name the folder of the project (separated by commas or spaces, can be ignored if `project_folder` is manually entered below). Default: "Jameson,Coots"
-`project_folder`   | Folder to create the project in. Default: `project_acronym`_`author_lastnames`, e.g. "ARP_Gaulin_Peng"
+`project_folder`   | Folder to create the project in. Default: `project_acronym`_`author_lastnames`, e.g. "ARP_Jameson_Coots"
+`project_description`   | A short description for the README
