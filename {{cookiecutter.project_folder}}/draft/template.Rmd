@@ -1,12 +1,12 @@
 ---
-title: {{ cookiecutter.paper_title }}
+title: Paper Ttle
 authors:
-  - name: {{ cookiecutter.full_name }}
+  - name: First Last
     thanks: Use footnote for providing further information about author (webpage, alternative address)---*not* for acknowledging funding agencies. Optional.
     department: Department of ________
     affiliation: ________ University
     location: 
-    email: {{ cookiecutter.email }}
+    email: email
 abstract: |
   Enter the text of your abstract here.
 keywords:
@@ -14,7 +14,7 @@ keywords:
   - blee
   - bloo
   - these are optional and can be removed
-bibliography: _resources/references.bib
+bibliography: references.bib
 biblio-style: unsrt
 output: rticles::arxiv_article
 ---
