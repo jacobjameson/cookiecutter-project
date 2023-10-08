@@ -19,6 +19,11 @@ Or, if you use `conda`:
 pip install -U cookiecutter
 ```
 
+Or, if you use `brew`:
+
+```bash
+brew install cookiecutter
+```
 
 Then, generate a Research Project Template by entering the following in your command line (Powershell or Terminal):
 
@@ -31,7 +36,6 @@ You will be prompted for the following values:
 
 Input Value        | Description
 -------------------|----------------------------------------------------------------------------------------------------------------------------------------
-`paper_title`      | Title of the paper. Example: "Academic Research Project"
 `project_acronym`  | Acronym for the project, used as a short-hand for reference. Default: "ARP"
 `full_name`        | Your full name, added to the Latex file. Other authors will have to be manually added to the Latex. Default: "Jacob Jameson"
 `email`            | Your email address, added to the Latex file. Other authors will have to be manually added to the Latex. Default: "jacobjameson@g.harvard.edu"
