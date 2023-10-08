@@ -27,7 +27,7 @@ brew install cookiecutter
 Then, generate a Research Project Template by entering the following in your command line (Powershell or Terminal):
 
 ```bash
-cookiecutter gh:jacobjameson/cookiecutter-research-project
+cookiecutter gh:jacobjameson/cookiecutter-project
 ```
 
 You will be prompted for the following values:
